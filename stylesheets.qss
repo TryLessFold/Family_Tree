@@ -1,0 +1,26 @@
+QMainWindow, QMenuBar, QMenuBar:hover, QPushButton:checked, QMenu {
+background: #cfcfcf;
+}
+
+QDialog {
+    background: #e6e6e6;
+}
+
+QPushButton {
+    background: #cfcfcf;
+    border-color: #cfcfcf;
+}
+
+QMenuBar::item:selected {
+background: gray;
+}
+
+QMenu:selected, QPushButton:selected, QPushButton:clicked  {
+background: #cfcfcf;
+}
+
+QPushButton:hover, QPushButton:selected
+{
+background: gray;
+border: 0px;
+}
